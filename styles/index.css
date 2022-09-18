@@ -88,9 +88,10 @@ label[for="message-two"] {
     background-color: #FFB039;
 }
 .duck {
-position: absolute;
+    position: absolute;
     max-width: 663px;
     width: 100%;
     min-height: 603px;
-
+    left: 585px;
+    top: 205px;
 }
