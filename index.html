@@ -10,21 +10,28 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="form-box">
-        <form action="">
-            <div class="text-box">
-                <label for="name" class="name">FULL NAME</label>
-                <input type="text" placeholder="">
-                <label for="email" class="email">EMAIL</label>
-                <input type="email" placeholder="Your Email">
-                <label for="message" class="message">message</label>
-                <input type="text" placeholder="Your Message">
+    <div class="form-block">
+        <div class="text-block">
+            <form action="">
+                <label for="name" class="label">FULL NAME</label>
+                <input type="text" placeholder="" class="input-name">
+
+                <label for="email" class="label">EMAIL</label>
+                <input type="email" placeholder="Your Email" class="input-email">
+
+                <label for="message" class="label-message">Message regarding</label>
+                <textarea name="message" id="" cols="30" rows="1"></textarea>
+
+                <label for="">Message</label>
+                <textarea name="message" id="" cols="30" rows="1"></textarea>
+
                 <input type="button" value="send message">
-            </div>
-            <div class="duck">
-                <img src="images/duck.png" alt="A yellow duck">
-            </div>
-        </form>
+            </form>
+        </div>
+        <div class="orange-block"></div>
+        <div class="duck">
+            <img src="images/duck.png" alt="A yellow duck">
+        </div>
     </div>
 </body>
 </html>
