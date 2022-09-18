@@ -9,6 +9,10 @@ body {
     margin: auto;
 }
 
+.duck {
+    display: flex;
+    justify-content: flex-end;
+}
 .form-box {
     width: 954px;
     height: 594px;
@@ -74,9 +78,4 @@ input[type="button"] {
 input[type="button"]:hover {
     cursor: pointer;
     background-color: #326066;
-}
-
-.duck {
-    display: flex;
-    justify-content: flex-end;
 }
