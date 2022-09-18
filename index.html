@@ -4,15 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/8d80da77e3.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="form-box">
-        <form action="">
-            <div class="form-name">
-                <input type="text" placeholder="Your name" class="name">
-                <textarea name="Full name" id="name" cols="30" rows="10"></textarea>
+    <div>
+        <form action="" class="form-box">
+            <div class="text-box">
+                <label for="name" class="name">FULL NAME</label>
+                    <div class= "box-input">
+                        <input type="text" placeholder="">
+                    </div>
+            </div>
+            <div class="text-box">
+                <label for="email" class="email">EMAIL</label>
+                    <div class="box-input">
+                        <input type="email" placeholder="Your Email">
+                    </div>
+            </div>
+            <div class="text-box">
+                <label for="message" class="message">message</label>
+                    <div>
+                        <input type="text" placeholder="Your Message">
+                    </div>
+            </div>
+            <div class="text-box">
+                <input type="button" value="send message">
+            </div>
+            <div class="duck">
+                <img src="images/duck.png" alt="A yellow duck">
             </div>
         </form>
     </div>
