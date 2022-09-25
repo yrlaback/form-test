@@ -10,29 +10,34 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="form-block">
-        <div class="text-block">
-            <form action="">
-                <label for="name">FULL NAME</label>
-                <input type="text" placeholder="" class="name">
-
-                <label for="email">EMAIL</label>
-                <input type="email" placeholder="Your Email" class="email">
-
-                <label for="message">Message regarding</label>
-                <textarea name="message" id="" cols="30" rows="1" class="text-message">
-                </textarea>
-
-                <label for="message-two">Message</label>
-                <textarea name="message" id="" cols="30" rows="1" class="text-message"></textarea>
-
-                <button class="btn">SEND MESSAGE</button>
-            </form>
-        </div>
-        <div class="orange-block"></div>
-        <div class="duck">
-            <img src="images/duck.png" alt="A yellow duck">
-        </div>
+    <div class="block">
+        <form class="form" action=""></form>
+            <div class="red-block">
+                <div class="content">
+                    <label for="name" class="label">FULL NAME</label>
+                    <input type="text" placeholder="" class="input" required autofocus>
+                </div>
+                <div class="content">
+                    <label for="email" class="label">EMAIL</label>
+                    <input type="email" placeholder="Your Email" class="input" required>
+                </div>
+                <div class="content">
+                    <label for="message-regarding" class="label">Message regarding</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="content">
+                    <label for="message" class="label">Message</label>
+                    <textarea name="" id="" cols="30" rows="1" placeholder="Your message" 
+                    class="input"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn">SEND MESSAGE</button>
+                </div>
+            </div>
+            <div class="orange-block">
+                <img src="images/duck.png" alt="A yellow duck">
+            </div>
+        </form>
     </div>
 </body>
 </html>

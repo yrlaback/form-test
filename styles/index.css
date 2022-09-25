@@ -1,62 +1,61 @@
-body {
+.block {
+    max-width: 1440px;
     width: 100%;
+    min-height: 900px;
     background-color: #9DBEBB;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
-.form-block {
-    max-width: 954px;
-    width: 100%;
-    min-width: 594px;
+.form {
+    display: flex;
+}
+
+.red-block {
+    width: 954px;
+    height: 594px;
     background-color: #BE0909;
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
 }
 
-.text-block {
+.content {
     display: flex;
     flex-direction: column;
+    margin: 20px;
+    max-width: 200px;
 }
 
-label[for="name"],
-label[for="email"],
-label[for="message"],
-label[for="message-two"] {
-    font-family: 'Roboto';
+.label {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 21px;
     /* identical to box height */
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    color: #FEFFFF;
 }
 
-.name, .email, .text-message {
-    max-width: 400px;
-    width: 100%;
-    margin: 22px;
-    background-color: #BE0909;
-    border-bottom: 1px solid #9DBEBB;
-}
-.name, .email, .text-message{
+.input {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 21px;
     /* identical to box height */
     letter-spacing: 0.3em;
-    color: #FDFFFF;
+    color: #000000;
 }
 
 .btn {
-    width: 200px;
+    width: 202px;
     height: 48px;
     background-color: #468189;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
@@ -80,18 +79,9 @@ label[for="message-two"] {
 }
 
 .orange-block {
-    max-width: 345px;
-    width: 100%;
-    min-height: 594px;
-    left: 852px;
-    top: 153px;
-    background-color: #FFB039;
-}
-.duck {
-    position: absolute;
-    max-width: 663px;
-    width: 100%;
-    min-height: 603px;
-    left: 585px;
-    top: 205px;
+    width: 345px;
+    height: 594px;
+    background-color: #ffb039;
+    display: flex;
+    justify-content: flex-end;
 }
